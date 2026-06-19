@@ -1,0 +1,17 @@
+# Python backend
+health-analytics-backend/__pycache__/
+health-analytics-backend/**/__pycache__/
+health-analytics-backend/*.pyc
+health-analytics-backend/.env
+health-analytics-backend/*.db
+health-analytics-backend/.venv/
+health-analytics-backend/venv/
+
+# Frontend
+health-analytics-frontend/node_modules/
+health-analytics-frontend/dist/
+health-analytics-frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
