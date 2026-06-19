@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 1440  # 24 hours
     
     # CORS
-    cors_origins: str = "http://localhost:3000,http://localhost:5173"
+    cors_origins: str = "http://localhost:3000,http://localhost:5173,https://ssbcod.github.io"
     
     @property
     def cors_origins_list(self) -> List[str]:
